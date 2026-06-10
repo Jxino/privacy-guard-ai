@@ -1,27 +1,38 @@
-﻿# Market Pulse
+﻿# Privacy Guard AI
 
-상품 판매량, 재고, 주문 흐름을 분석하는 이커머스 관리자 대시보드
+Privacy Guard AI detects personally identifiable information in documents and applies reviewable redaction policies before sharing.
 
-## Tech Stack
+> Portfolio concept project focused on practical AI and cybersecurity workflows.
 
-spring-boot, java, jpa, mysql, analytics, ecommerce
+## Core Features
 
-## Main Features
+- PII entity detection for structured and free text
+- Configurable masking and tokenization rules
+- Side-by-side redaction review
+- Privacy risk and processing report
 
-- Sales summary aggregation API
-- Inventory status endpoint
-- Order trend analysis service
+## Technology
 
-## API Preview
+`python` | `spacy` | `fastapi` | `react` | `postgresql` | `docker`
 
-`http
-GET /api/market-pulse
-`
+## Architecture
 
-## Run
+1. React provides document review and approval.
+1. FastAPI manages redaction workflows.
+1. spaCy pipelines detect sensitive entities.
+1. PostgreSQL stores policies and non-sensitive audit metadata.
 
-`ash
-./gradlew bootRun
-`
+## Security Principles
 
-This repository is a portfolio dummy project prepared for a Spring Boot MVC portfolio assignment.
+- Original documents are encrypted at rest
+- Configurable automatic retention expiry
+- Redaction approval separated by role
+- Sensitive text excluded from application logs
+
+## Project Status
+
+This repository contains a portfolio-ready system design and metadata set. The scope is intentionally limited to a demonstrable concept rather than a production deployment.
+
+## License
+
+MIT License

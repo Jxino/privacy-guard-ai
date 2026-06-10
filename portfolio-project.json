@@ -1,0 +1,22 @@
+﻿{
+    "slug":  "privacy-guard-ai",
+    "title":  "Privacy Guard AI",
+    "description":  "문서 속 개인정보를 자동 탐지하고 마스킹하는 자연어 처리 기반 프라이버시 도구",
+    "category":  "AI Security",
+    "technologies":  [
+                         "python",
+                         "spacy",
+                         "fastapi",
+                         "react",
+                         "postgresql",
+                         "docker"
+                     ],
+    "features":  [
+                     "PII entity detection for structured and free text",
+                     "Configurable masking and tokenization rules",
+                     "Side-by-side redaction review",
+                     "Privacy risk and processing report"
+                 ],
+    "repository":  "https://github.com/Jxino/privacy-guard-ai",
+    "portfolioVisible":  true
+}
